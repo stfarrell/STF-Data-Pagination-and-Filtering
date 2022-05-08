@@ -127,7 +127,7 @@ function addPagination(list) {
 	}
 
 	if (linkList.firstChild) {
-		linkList.firstChild.classList.add('active');
+		linkList.firstChild.firstChild.classList.add('active');
 	}
 	linkList.addEventListener('click', (e) => {
 		if (e.target.type === 'button') {
